@@ -163,3 +163,16 @@ img.grayscale:hover {
   margin-bottom: 0px;
 }
 
+.fa {
+  padding-bottom: 70px !important;
+}
+
+.fa-facebook {
+  padding-bottom: 0px !important;
+}
+
+.my-info {
+  height: 200px;
+  position: relative;
+  top: 205px;
+}
