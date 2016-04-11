@@ -1,1 +1,3 @@
-console.log('JS loaded!');
+$(document).ready(function(){
+  $('.scrollspy').scrollSpy();
+});

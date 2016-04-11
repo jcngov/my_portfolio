@@ -4,9 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jerry Ngov</title>
-  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
@@ -15,18 +18,16 @@
 
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <ul class="nav navbar-nav">
-          <li><a ui-sref="home" class="btn">Home</a></li>
-          <li><a ui-sref="work" class="btn">Projects</a></li>
-          <li><a ui-sref="contact" class="btn">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <div class="homepage-hero-module">
+
+
+    <ul class="navbar">
+        <li><a href="#home" class="navs">Home</a></li>
+        <li><a href="#work" class="navs">Projects</a></li>
+        <li><a href="#contact" class="navs">Contact</a></li>
+    </ul>
+
+
+  <div class="homepage-hero-module" id="home">
       <div class="video-container">
           <div class="filter"></div>
           <video autoplay loop class="fillWidth">
@@ -52,9 +53,15 @@
     <i class="devicon-illustrator-plain"></i>
     <i class="devicon-photoshop-plain"></i>
   </div>
-  <main class="content" ui-view>
-    <!-- Templates Go In Here -->
-  </main>
+  <div class="work" id="work">
+    <h1 class="projects">Projects.</h1>
+    <a href="https://agile-harbor-41384.herokuapp.com/"><img class="yugen" src="https://i.imgur.com/1ljAUpg.png"></a>
+    <a href=" http://jcngov.github.io/Project1/"><img class="memory" src="https://i.imgur.com/X3moOOf.png"></a>
+    <a href="http://infinite-plateau-47667.herokuapp.com/"><img class="picky" src="https://i.imgur.com/bRDXgjm.png"></a>
+  </div>
+  <div class="contact-info" id="contact">
+    <h1 class="contact">Contact Info</h1>
+  </div>
   <div class="profile-pic">
     <img class="pic" src="/assets/jnpic.png">
     <img class="laptop" src="/assets/laptop.png">
@@ -63,5 +70,6 @@
 
   <script src="/js/app.module.js"></script>
   <script src="/js/app.routes.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

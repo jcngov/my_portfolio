@@ -109,3 +109,28 @@ i {
 .fillWidth {
   width: 1340px !important;
 }
+
+
+/*NAVBAR*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid;
+}
+
+.navs {
+  display:table-cell;
+}
+
+#navs {
+  color: black !important;
+  text-decoration: none;
+}
+
+a.navs {
+  color: black;
+  padding-bottom: 10px
+}
+
+
