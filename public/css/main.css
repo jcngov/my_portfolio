@@ -103,7 +103,7 @@ i {
   justify-content: space-around;
   z-index: 1;
   position: relative;
-  bottom: 730px;
+  bottom: 485px;
 }
 
 .fillWidth {
@@ -164,15 +164,39 @@ img.grayscale:hover {
 }
 
 .fa {
-  padding-bottom: 70px !important;
-}
-
-.fa-facebook {
-  padding-bottom: 0px !important;
+  /*padding-bottom: 90px !important;*/
+  padding-left: 20px !important;
+  height: 40px !important;
 }
 
 .my-info {
   height: 200px;
   position: relative;
   top: 205px;
+}
+
+a {
+  color: black !important;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.small-logo {
+  position: absolute;
+  z-index: 1;
+  width: 90px;
+  height: 120px;
+  top: -12px;
+  left: 25px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  right: 55px;
+  top: 435px;
 }
