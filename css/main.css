@@ -36,15 +36,29 @@ a { color: #00B7FF; }
 .work {
   display: flex;
   justify-content: center;
+  /*border: 1px solid black;*/
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .yugen, .memory, .picky, .cinemine {
   height: 280px;
   width: 330px;
   padding: 15px;
+  display: flex;
 }
 
-.laptop {
+.project-descriptions {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 330px;
+}
+
+/*.laptop {
   position: relative;
   right: -328px;
   top: -231px;
@@ -56,19 +70,19 @@ a { color: #00B7FF; }
   right: 167px;
   height: 329px;
   top: 198px;
-}
+}*/
 
 .description {
   animation: my_fade_animation 3s linear;
 }
 
-/*.laptop {
+.logo {
   animation: my_fade_animation 4s linear;
 }
 
-.notebook {
+.devicons {
   animation: my_fade_animation 5s linear;
-}*/
+}
 
 @keyframes my_fade_animation {
   from { opacity:0; }
@@ -154,18 +168,10 @@ img.grayscale:hover {
   margin-top: 0px;
 }
 
-.project-descriptions {
-  text-align: justify;
-  font-family: 'Raleway', sans-serif;
-  padding: 10px;
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .fa {
   /*padding-bottom: 90px !important;*/
-  padding-left: 20px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
   height: 40px !important;
 }
 
@@ -200,3 +206,4 @@ a {
   right: 55px;
   top: 340px;
 }
+
