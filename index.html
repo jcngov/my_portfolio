@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="elevator.js"></script>
   <script src="js/main.js"></script>
 
 
@@ -120,5 +121,15 @@
       <a href="https://www.instagram.com/47jerronin/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
       <a href="https://www.facebook.com/jerry.ngov" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
     </div>
+  <div class="elevator-button">Back to Top</div>
 </body>
+<script>
+window.onload = function() {
+  var elevator = new Elevator({
+    element: document.querySelector('.elevator-button'),
+    duration: 1000 // milliseconds
+  });
+}
+
+</script>
 </html>
