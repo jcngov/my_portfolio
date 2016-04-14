@@ -185,9 +185,11 @@ a {
 }
 
 .contact-icons {
+  padding-top: 30px;
+  height: 33px;
+  /* width: 700px; */
   display: flex;
   justify-content: center;
-  padding-top: 30px;
 }
 
 .small-logo {
@@ -253,17 +255,6 @@ a {
   position: absolute;
 }
 
-.calaps-tvcd {
-  height: 275px;
-  width: 400px;
-}
-
-.lwsports-container {
-  display: flex;
-  /*justify-content: flex-end;*/
-  width: 100%;
-}
-
 .lw {
   width: 250px;
   position: relative;
@@ -275,5 +266,29 @@ a {
   position: relative;
   bottom: 30px;
   right: 10px;
+}
+
+.elevator-button {
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  border: 1px solid;
+  padding: 15px;
+  width: 165px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+  padding: 50px;
+  bottom: 185px;
+  left: 20px;
+  border: 1px solid;
+}
+
+.jn-container {
+  padding-top: 70px;
 }
 
