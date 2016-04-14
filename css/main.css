@@ -45,6 +45,7 @@ a { color: #00B7FF; }
   height: 280px;
   width: 330px;
   padding: 15px;
+  padding-top: 0px;
   display: flex;
 }
 
@@ -57,20 +58,6 @@ a { color: #00B7FF; }
   margin-bottom: 0px;
   width: 330px;
 }
-
-/*.laptop {
-  position: relative;
-  right: -328px;
-  top: -231px;
-  height: 527px;
-}
-
-.notebook {
-  position: relative;
-  right: 167px;
-  height: 329px;
-  top: 198px;
-}*/
 
 .description {
   animation: my_fade_animation 3s linear;
@@ -207,3 +194,8 @@ a {
   top: 340px;
 }
 
+.laptop {
+  border: 2px solid black;
+  display: flex;
+  /*justify-content: center;*/
+}
