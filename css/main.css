@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   padding: 50px;
   background: whitesmoke;
+  border: 10px solid rgba(0, 0, 0, 0.15);
 }
 
 a { color: #00B7FF; }
@@ -197,7 +198,7 @@ a {
   z-index: 1;
   width: 90px;
   height: 120px;
-  top: -12px;
+  top: -4px;
   left: 25px;
 }
 
