@@ -206,13 +206,16 @@ a {
   justify-content: center;
   /*padding-bottom: 50px;*/
   background-color: whitesmoke;
+  text-align: center !important;
+  margin: 0 auto !important;
 }
 
 .laptops {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  text-align: center !important;
+  margin: 0 auto !important;
 }
 
 .enter {
