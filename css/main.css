@@ -280,5 +280,15 @@ a {
   /*background-color: white;*/
 }
 
+.insta {
+  height: 480px;
+  width: 480px;
+  margin-bottom: 20px;
+}
+
+.pic-and-insta {
+  /*border: 1px solid;*/
+}
+
 
 
