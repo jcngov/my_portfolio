@@ -173,12 +173,13 @@ img.grayscale:hover {
 }
 
 .my-info {
-  height: 189px;
   position: relative;
-  top: 140px;
-  font-size: 40px;
+  top: 130px;
+  font-size: 20px;
   text-align: center;
-  right: 45px;
+  border: 1px solid black;
+  width: 100%;
+  padding: 70px;
 }
 
 a {
