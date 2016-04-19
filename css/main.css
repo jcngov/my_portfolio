@@ -20,7 +20,7 @@ a { color: #00B7FF; }
 }
 
 .profile-pic {
-  display: flex;
+  /*display: flex;*/
   border-bottom: 2px solid;
 }
 
@@ -158,12 +158,13 @@ img.grayscale:hover {
 
 .my-info {
   position: relative;
-  top: 130px;
+  /*top: 130px;*/
   font-size: 20px;
   text-align: center;
   border: 1px solid black;
   width: 100%;
   padding: 70px;
+  bottom: 25px;
 }
 
 a {
@@ -279,7 +280,5 @@ a {
   /*background-color: white;*/
 }
 
-/*.copyright {
-  float: right;
-}*/
+
 
