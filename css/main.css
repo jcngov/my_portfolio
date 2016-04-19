@@ -111,6 +111,11 @@ i {
   text-align: center;
 }
 
+#nav {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .navs {
   display:table-cell;
 }
